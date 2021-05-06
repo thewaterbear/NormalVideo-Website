@@ -263,7 +263,7 @@ ol li {
 
 h1 {
 	/*font-size:90px;*/
-	font-size: 78px;
+	font-size: 67px;
 	line-height: 1.1;
 }
 h2 {
@@ -631,7 +631,9 @@ video.fulldiv {
     width: 100%;
 }
 
-
+.create-better{
+	max-width: 475px;
+}
 
 .showcase-asset {
 	max-width: 1700px;
@@ -2494,7 +2496,7 @@ h1.jobs-btn {
 }
 
 .normcore {
-	max-width: 450px;
+	max-width: 400px;
 }
 
 .cutcorners {
