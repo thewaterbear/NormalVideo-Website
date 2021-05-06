@@ -1,0 +1,71 @@
+<module href="/templates/page.html" locals='{"title": "Contact"}'>
+  <script src="scripts/contact.js"></script>
+  <div class="wrap">
+      <section class="f-section-block">
+          <video playsinline autoplay muted loop id="videoHeader" class="fulldiv">
+              <source src="/assets/orb.mp4" type="video/mp4" media="screen and (min-device-width:600px)">
+          </video>
+          <div class="row width-100 z-1">
+              <div class="col-md-4 col-sm-12">
+                  <h2 class="enterprise-contact__title">We are in private alpha.</h2>
+                  <p class="enterprise-contact__desc">We are rolling out Normal Video to select clients while in alpha. Let us know a bit about what you're building and what questions we can answer and we'll be in touch shortly.</p>
+              </div>
+              <div class="col-md-1 col-sm-12"></div>
+              <section class="alert alert-warning d-none" id="submit-error">We couldn't submit your request. Please make sure all fields are correctly filled out and then try again. If you're still unable to submit, shoot us an email at <a href="mailto:help@normalvr.com">help@normalvr.com</a>.</section>
+              <section class="alert alert-success d-none" id="submit-success">We successfully submitted your request. We'll be in touch soon!</section>
+              <div class="col-md-7 col-sm-12 width-100">
+                  <form action="http://normcore.io/enterprise-contact" method="POST" class="enterprise-contact__form" id="enterprise-contact-form">
+                      <fieldset id="enterprise-contact-fieldset">
+                          <div class="form-row flex mobile-no-flex">
+                              <div class="form-group col-md-12">
+                                  <label for="inputName">Name</label>
+                                  <input type="text" class="form-control" id="inputName" name="name" placeholder="" autofocus="" required="">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="inputEmail">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail" name="email" placeholder="" required="">
+                              </div>
+                          </div>
+                          <div class="form-row flex mobile-no-flex">
+                              <div class="form-group col-md-6">
+                                  <label for="inputCompany">Company</label>
+                                  <input type="text" class="form-control" id="inputCompany" name="company" placeholder="" required="">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="inputPhone">Phone</label>
+                                  <input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="" required="">
+                              </div>
+                          </div>
+                          <div class="form-row flex">
+                              <div class="form-group col-md-12">
+                                  <label for="inputCompanySize">Company size</label>
+                                  <select name="company_size" id="inputCompanySize" class="custom-select" required="">
+                                      <option value="" selected="" disabled="">Select</option>
+                                      <option value="0-25 people">Less than 25 people</option>
+                                      <option value="50-99 people">50 to 99 people</option>
+                                      <option value="100-249 people">100 to 249 people</option>
+                                      <option value="250-499 people">250 to 999 people</option>
+                                      <option value="1000-2499 people">1K to 2.5K people</option>
+                                      <option value="2500-4999 people">2.5K to 5K people</option>
+                                      <option value="5000+ people">5K+ people</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="form-row flex">
+                              <div class="form-group col-md-12 ">
+                                  <label for="inputMessage">What are you building?</label>
+                                  <textarea name="message" id="inputMessage" cols="30" rows="6" class="form-control" required=""></textarea>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col tr form-button-bar">
+                                  <button type="submit" class="button stroke btn btn-wide" id="contact-submit-btn">Send</button>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </section>
+  </div>
+</module>

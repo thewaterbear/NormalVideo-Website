@@ -1,0 +1,36 @@
+/*PLATFORM*/
+@font-face {
+    font-family: 'Platform';
+    src: url('./Platform-Bold-Web.eot');
+    src: url('./Platform-Bold-Web.eot?#iefix') format('embedded-opentype'),
+        url('./Platform-Bold-Web.woff2') format('woff2'),
+        url('./Platform-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Platform';
+  src: url('./Platform-Light-Web.eot');
+  src: url('./Platform-Light-Web.eot?#iefix') format('embedded-opentype'),
+       url('./Platform-Light-Web.woff2') format('woff2'),
+       url('./Platform-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+/*SOMETIMES TIMES*/
+@font-face {
+    font-family: 'Sometimes Times';
+    src: url('SometimesTimes-Italic.eot');
+    src: url('SometimesTimes-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SometimesTimes-Italic.woff2') format('woff2'),
+        url('SometimesTimes-Italic.woff') format('woff'),
+        url('SometimesTimes-Italic.svg#SometimesTimes-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
