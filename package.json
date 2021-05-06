@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"serve\" \"gulp watch\"",
-    "build": "glup html"
+    "build": "gulp html"
   },
   "devDependencies": {
     "gulp-posthtml": "^3.0.5",
