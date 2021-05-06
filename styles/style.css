@@ -2592,3 +2592,29 @@ h1.chill {
 .orb video {
 	max-width: 800px;
 }
+
+.company-logos {
+	display: flex;
+	justify-content: center;
+}
+
+.used-by {
+	position: relative;
+	z-index: 5;
+}
+
+.company-tag {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	opacity: 0.5;
+}
+
+.company-logos img {
+	max-width: 15%;
+  display: block;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+  filter: grayscale(1);
+}
