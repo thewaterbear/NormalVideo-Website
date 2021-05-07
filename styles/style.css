@@ -817,7 +817,7 @@ video.fulldiv {
 	left: 0; top: 0;
 	z-index: 5;
 	width: 100%;
-    padding: 1vh 1vw;
+    padding: 10px 10px;
     /*padding: 5px 10px;*/
     box-sizing: border-box;
     transition: background-color .3s ease-out;
@@ -864,7 +864,7 @@ video.fulldiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 1vw;
+    padding: 10px 10px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -900,6 +900,10 @@ video.fulldiv {
 	font-family: "Platform",sans-serif;
 	font-weight: 1000;
 	margin-top: -2px;
+}
+.nav-logo img {
+	max-width: 150px;
+	margin-left: 25px;
 }
 
 .nav-mobile {
@@ -2475,7 +2479,7 @@ h1.jobs-btn {
 	width: 100%;
 	position: absolute;
 	/*margin-top: 150px;*/
-	background-image: url(/assets/whiteonwhite.png);
+	background-image: url(/assets/whiteonwhite2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
     /*background-repeat: no-repeat;*/
