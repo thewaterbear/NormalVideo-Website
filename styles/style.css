@@ -2634,9 +2634,11 @@ h1.chill {
 
 /*Phone*/
  @media (max-width:48em) {
-
+ 	.company-logos {
+ 		flex-wrap: wrap;
+ 	}
 	.company-logos img {
-		max-width: 66px;
+		max-width: 105px;
 		display: block;
 		object-fit: contain;
 		width: auto;
