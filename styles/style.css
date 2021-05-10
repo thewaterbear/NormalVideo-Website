@@ -2646,7 +2646,7 @@ h1.chill {
 
 	.hero h1 {
 		font-size: 2.5rem;
-		margin-top: 100px;
+		/*margin-top: 100px;*/
 	}
 
 	h1 {
@@ -2657,11 +2657,13 @@ h1.chill {
 		max-width: 222px;
 	}
 	#homepageHero::after {
-	    background-position: -300px 61px;
+	    background-position: -290px -80px;
+	    background-size: 350%;
 	}
 
 	#homepageHero {
 		margin-bottom: 100px;
+		position: relative;
 	}
 	.f-section-block {
 		display: block;
@@ -2706,5 +2708,20 @@ h1.chill {
 
 	.sidepic {
 		margin-top: 40px;
+	}
+	video {
+		border: none;
+		outline: none;
+		-webkit-appearance: none;
+	    -webkit-mask-image: -webkit-radial-gradient(white, black);
+	    -webkit-backface-visibility: hidden;
+	    -moz-backface-visibility: hidden;
+	}
+
+	.mb-120 {
+		margin-bottom: 0;
+	}
+	.mb-70 {
+		margin-bottom: 0px;
 	}
 }
