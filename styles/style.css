@@ -2001,6 +2001,9 @@ h1.jobs-btn {
  	.desktop-only {
  		display: none;
  	}
+ 	.desktop-only-force {
+ 		display: none !important;
+ 	}
  	.mobile-no-flex {
  		display: block;
  	}
@@ -2071,7 +2074,7 @@ h1.jobs-btn {
 		position: fixed;
 		height: 200vh;
 		width: 100%;
-		background-color: rgba(1, 1, 1, 0.9);
+		background-color: rgba(255, 255, 255, 0.9);
 		z-index:9;
 		top: 0; left:0;
 		visibility: hidden;
@@ -2117,7 +2120,7 @@ h1.jobs-btn {
 
 
 	.hero h1 {
-		font-size: 4rem;
+		font-size: 2.9rem;
 	}
 	.hero h3 {
 		font-size: 1.2rem;
@@ -2170,9 +2173,10 @@ h1.jobs-btn {
 		/*margin-top: 25px;*/
 	}
 	.image-bar {
-		padding-right: 0px;
+/*		padding-right: 0px;
 		margin-bottom: 40px;
-		margin-top: 40px;
+		margin-top: 40px;*/
+		display: none;
 	}
 	.image-bar .icon {
 		max-width: 22px;
@@ -2264,7 +2268,7 @@ h1.jobs-btn {
 		line-height: 1.8;
 	}
 	.rightAnchor {
-		margin-top: 16px;
+		margin-top: 3px;
 		font-size: 10px;
 	}
 
@@ -2621,4 +2625,86 @@ h1.chill {
   width: auto;
   height: auto;
   filter: grayscale(1);
+}
+
+
+
+
+
+
+/*Phone*/
+ @media (max-width:48em) {
+
+	.company-logos img {
+		max-width: 66px;
+		display: block;
+		object-fit: contain;
+		width: auto;
+		height: auto;
+		filter: grayscale(1);
+	}
+
+	.hero h1 {
+		font-size: 2.5rem;
+		margin-top: 100px;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.normcore {
+		max-width: 222px;
+	}
+	#homepageHero::after {
+	    background-position: -300px 61px;
+	}
+
+	#homepageHero {
+		margin-bottom: 100px;
+	}
+	.f-section-block {
+		display: block;
+		/*padding: 0;*/
+	}
+	.platform-bar li {
+	    font-size: 21px;
+	    font-weight: bolder;
+	    padding: 5px 20px;
+	    color: var(--blue);
+	    margin: 0;
+	    /* color: white; */
+	}
+	h2 {
+	    font-size: 1.9rem;
+	    margin-top: 0.3em;
+	}
+	.create-better { 
+		max-width: none;
+	}
+	.phone-pic {
+		display: flex;
+		justify-content: center;
+	}
+
+	.phone-pic img {
+		width: 140%;
+		margin-left: -20px;
+	}
+	h1.final-headline {
+		font-size: 2rem;
+	}
+
+	.orb video {
+		width: 100%;
+	}
+
+	.remove-vert-pad-mobile {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.sidepic {
+		margin-top: 40px;
+	}
 }
