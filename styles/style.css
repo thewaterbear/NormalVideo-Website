@@ -2040,10 +2040,10 @@ h1.jobs-btn {
 		display: none;
 	}
 	.nav-logo a {
-		display: none;
+		/*display: none;*/
 	}
 	.nav-items {
-		display: none;
+		/*display: none;*/
 	}
 
 	.mobile-nav-items {
@@ -2484,12 +2484,15 @@ h1.jobs-btn {
 	position: absolute;
 	/*margin-top: 150px;*/
 	background-image: url(/assets/whiteonwhite2.png);
-	background-size: cover;
+	/*background-size: cover;*/
 	background-repeat: no-repeat;
     /*background-repeat: no-repeat;*/
     /* background-position-y: 50%; */
     /*background-position: 0% 150%;*/
-    background-position: -300px 50%;
+
+	background-size: 2100px;
+    background-position-y: 40%;
+    background-position-x: -340px;
 }
 
 .hero {
@@ -2609,6 +2612,7 @@ h1.chill {
 .used-by {
 	position: relative;
 	z-index: 5;
+	margin-top: 50px;
 }
 
 .company-tag {
@@ -2627,9 +2631,46 @@ h1.chill {
   filter: grayscale(1);
 }
 
+.final-headline {
+	max-width: 800px;
+}
+
+.create-block {
+	position: relative;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MID*/
+@media (max-width:64em) {
+
+	.realtime-feature-box {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.create-better {
+		font-size: 53px;
+	}
+	.two-roads p {
+		font-size: 14px;
+	}
+
+}
 
 
 /*Phone*/
@@ -2659,8 +2700,11 @@ h1.chill {
 		max-width: 222px;
 	}
 	#homepageHero::after {
-	    background-position: -290px -80px;
-	    background-size: 350%;
+/*	    background-position: -290px -80px;
+	    background-size: 350%;*/
+		background-size: 1500px;
+	    background-position-y: 40%;
+	    background-position-x: -340px;
 	}
 
 	#homepageHero {
@@ -2725,5 +2769,11 @@ h1.chill {
 	}
 	.mb-70 {
 		margin-bottom: 0px;
+	}
+
+	.nav-logo img {
+		max-width: 120px;
+		margin-left: 10px;
+		margin-top: 15px;
 	}
 }
