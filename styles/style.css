@@ -2639,6 +2639,10 @@ h1.chill {
 	position: relative;
 }
 
+.platform-bar {
+	max-width: 510px;
+}
+
 
 
 
