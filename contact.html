@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta name="description" content="The best streaming video and audio API">
+  <meta name="keywords" content="video, streaming, api, audio, webRTC">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@normalvr">
+  <meta name="twitter:title" content="Normal Video">
+  <meta name="twitter:description" content="Add video and audio streaming to your app and scale automatically. Implementing voice chat and crystal clear HD video streaming has never been simpler.">
+  <meta name="twitter:image" content="http://normal.video/normalvideosocial.jpg">
+
+  <meta property="og:url" content="https://normal.video/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Normal Video | Contact">
+  <meta property="og:description" content="Add video and audio streaming to your app and scale automatically. Implementing voice chat and crystal clear HD video streaming has never been simpler.">
+  <meta property="og:image" content="http://normal.video/normalvideosocial.jpg">
+  <meta property="og:image:url" content="https://normal.video/normalvideosocial.jpg">
+  <meta property="og:image:secure_url" content="https://normal.video/normalvideosocial.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1000">
+  <meta property="og:image:height" content="500">
+
+  <link rel="icon" href="https://normcore.io/favicon.ico">
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-134174257-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134174257-2');
+  </script>
+</head>
+<body>
+    <nav class="z-1 wrap">
+      <div class="nav">
+        <div class="nav-grid">
+          <div class="nav-logo"><a href="/"><img src="/assets/NormalVideoLogo.svg" alt="Normal Video"></a></div>
+          <div class="nav-items">
+            <div class="nav-element button-version desktop-only"><a class="button stroke flex-button main-get-started-btn" href="contact.html">Join the waitlist</a></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    
+  <script src="scripts/contact.js"></script>
+  <div class="wrap">
+      <section class="f-section-block">
+          <video playsinline="" autoplay="" muted="" loop="" id="videoHeader" class="fulldiv">
+              <source src="/assets/orb.mp4" type="video/mp4" media="screen and (min-device-width:600px)">
+          </video>
+          <div class="row width-100 z-1">
+              <div class="col-md-4 col-sm-12">
+                  <h2 class="enterprise-contact__title">We are in private alpha.</h2>
+                  <p class="enterprise-contact__desc">We are rolling out Normal Video to select clients while in alpha. Let us know a bit about what you're building and what questions we can answer and we'll be in touch shortly.</p>
+              </div>
+              <div class="col-md-1 col-sm-12"></div>
+              <section class="alert alert-warning d-none" id="submit-error">We couldn't submit your request. Please make sure all fields are correctly filled out and then try again. If you're still unable to submit, shoot us an email at <a href="mailto:&#104;&#101;&#108;&#112;&#64;&#110;&#111;&#114;&#109;&#97;&#108;&#118;&#114;&#46;&#99;&#111;&#109;">&#104;&#101;&#108;&#112;&#64;&#110;&#111;&#114;&#109;&#97;&#108;&#118;&#114;&#46;&#99;&#111;&#109;</a>.</section>
+              <section class="alert alert-success d-none" id="submit-success">We successfully submitted your request. We'll be in touch soon!</section>
+              <div class="col-md-7 col-sm-12 width-100">
+                  <form action="https://normcore.io/enterprise-contact" method="POST" class="enterprise-contact__form" id="enterprise-contact-form">
+                      <fieldset id="enterprise-contact-fieldset">
+                          <div class="form-row flex mobile-no-flex">
+                              <div class="form-group col-md-12">
+                                  <label for="inputName">Name</label>
+                                  <input type="text" class="form-control" id="inputName" name="name" placeholder="" autofocus="" required="">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="inputEmail">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail" name="email" placeholder="" required="">
+                              </div>
+                          </div>
+                          <div class="form-row flex mobile-no-flex">
+                              <div class="form-group col-md-6">
+                                  <label for="inputCompany">Company</label>
+                                  <input type="text" class="form-control" id="inputCompany" name="company" placeholder="" required="">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="inputPhone">Phone</label>
+                                  <input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="" required="">
+                              </div>
+                          </div>
+                          <div class="form-row flex">
+                              <div class="form-group col-md-12">
+                                  <label for="inputCompanySize">Company size</label>
+                                  <select name="company_size" id="inputCompanySize" class="custom-select" required="">
+                                      <option value="" selected="" disabled="">Select</option>
+                                      <option value="0-25 people">Less than 25 people</option>
+                                      <option value="50-99 people">50 to 99 people</option>
+                                      <option value="100-249 people">100 to 249 people</option>
+                                      <option value="250-499 people">250 to 999 people</option>
+                                      <option value="1000-2499 people">1K to 2.5K people</option>
+                                      <option value="2500-4999 people">2.5K to 5K people</option>
+                                      <option value="5000+ people">5K+ people</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="form-row flex">
+                              <div class="form-group col-md-12 ">
+                                  <label for="inputMessage">What are you building?</label>
+                                  <textarea name="message" id="inputMessage" cols="30" rows="6" class="form-control" required=""></textarea>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col tr form-button-bar">
+                                  <button type="submit" class="button stroke btn btn-wide" id="contact-submit-btn">Send</button>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </section>
+  </div>
+
+
+   <footer class="footer wrap">
+      <div class="block-wrap grid">
+        <div class="firstCol">
+          <div class="caps-heading">Made with love by</div>
+          <div class="logo">
+            <a href="https://www.normalvr.com/"><img src="/assets/normal-logo.svg" alt="Normal."></a>
+          </div>
+          <a href="http://normcore.io/discord"><span class="sr-only">Join the Normal Discord</span><i class="lab la-discord"></i></a>
+          <a href="https://www.twitter.com/normalvr"><span class="sr-only">Follow Normal on Twitter</span><i class="la la-twitter"></i></a>
+          <a href="https://www.instagram.com/normalvr/"><span class="sr-only">Follow Normal on Instagram</span><i class="la la-instagram"></i></a>
+          <a href="https://medium.com/@normalvr"><span class="sr-only">Read the Normal blog on Medium</span><i class="lab la-medium-m"></i></a>
+          <div class="wemake caps-heading">Things we make</div>
+          <div class="make-group">  
+            <div class="make-entry make-halfhalf"><a href="http://halfhalf.fun"><span class="sr-only">Our title Half + Half</span><img src="/assets/halfhalflogowhite.svg" alt=""></a></div>
+            <div class="make-entry make-normcore"><a href="http://normcore.io">Normcore.</a></div>
+            <div class="make-entry make-normalchat"><a href="https://normal.chat/">Normal<span>Chat</span></a></div>
+          </div>
+          <div class="copyright">
+            <div class="bk">
+              <a href="http://www.normcore.io/legal/privacypolicy.html">Privacy Policy</a> | <a href="http://www.normcore.io/legal/termsofservice.html">Terms of Service</a> 
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="caps-heading">Normal Video</div>
+          <ul>
+            <li><a href="contact.html">Why Normal Video?</a></li>
+            <li><a href="contact.html">Pricing</a></li>
+            <li><a href="contact.html">Solutions</a></li>
+            <!-- <li><a href="https://normcore.io/documentation/">Documentation</a></li> -->
+            <li><a href="contact.html">Support</a></li>
+            <!-- <li><a href="https://normcore.io/dashboard">Login</a></li> -->
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="caps-heading">Other</div>
+          <ul>
+            <li><a href="https://www.normalvr.com/about/">About Normal</a></li>
+            <li><a href="https://www.normcore.io/jobs">Jobs</a></li>
+            <li><a href="https://www.halfhalf.fun">Half + Half</a></li>
+            <li><a href="https://www.normcore.io/startup-program.html">Startup Program</a></li>
+            <li><a href="https://store.normalvr.com/">Normal Store</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="bk">© 2021 Normal Inc. Brooklyn, NY.</div>  
+        <div class="rightAnchor">+++</div>
+      </div>
+    </footer>
+
+  <script src="/scripts/basic.js"></script> 
+  <script src="/scripts/instant-page-5.1.0.js" type="module"></script>
+
+</body>
+</html>

@@ -1,32 +1,19 @@
 
 // mobile nav button listeners
-document.querySelector(".toggleMobileNav").addEventListener("click", function() {
-	toggleMobileNav();
-});
-document.querySelector(".toggleMobileNavClose").addEventListener("click", function() {
-	toggleMobileNav();
-});
+// document.querySelector(".toggleMobileNav").addEventListener("click", function() {
+// 	toggleMobileNav();
+// });
+// document.querySelector(".toggleMobileNavClose").addEventListener("click", function() {
+// 	toggleMobileNav();
+// });
 
-function toggleMobileNav() {
-  document.querySelector(".mobile-nav-items").classList.toggle("mobile-nav-active");
-  document.querySelector(".mobile-nav-items-backdrop").classList.toggle("mobile-nav-active");
-}
+// function toggleMobileNav() {
+//   document.querySelector(".mobile-nav-items").classList.toggle("mobile-nav-active");
+//   document.querySelector(".mobile-nav-items-backdrop").classList.toggle("mobile-nav-active");
+// }
 
 
 //hide on scroll
-pageMap = document.getElementById("pageMap");
-
-var scrollChecker = function() {
-    if (window.innerHeight + window.scrollY > document.body.clientHeight-400) {
-         pageMap.className = "page-map vis-hide"
-    } else {
-    	pageMap.className = "page-map vis-show"
-    }
-};
-
-if(pageMap!=null) {
-	window.addEventListener("scroll", scrollChecker);
-}
 
 
 //Check if mobile device, so we can apply "fill-available" css
